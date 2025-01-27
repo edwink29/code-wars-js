@@ -16,13 +16,27 @@
 // }
 // console.log(typeof numberToString(124));
 
-function repeatStr(n, s) {
-  let result = "";
-  for (let i = 0; i < n; i++) {
-    result += s;
-  }
+// function repeatStr(n, s) {
+//   let result = "";
+//   for (let i = 0; i < n; i++) {
+//     result += s;
+//   }
 
-  return result;
+//   return result;
+// }
+
+// console.log(repeatStr(5, "abc"));
+
+// function digitize(n) {
+//   //code here
+//   return n.toString().split("").map(Number).reverse();
+// }
+
+// console.log(digitize(348597));
+
+function stringToArray(string) {
+  // code code code
+  return string.split(" ");
 }
 
-console.log(repeatStr(5, "abc"));
+console.log(stringToArray("Hello World"));
